@@ -1,145 +1,63 @@
-﻿  OgreD3D11DepthBuffer.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreD3D11DepthBuffer.cpp
   OgreD3D11Device.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Device.cpp': No such file or directory
   OgreD3D11DeviceResource.cpp
   OgreD3D11Driver.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11DeviceResource.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Driver.cpp': No such file or directory
   OgreD3D11DriverList.cpp
   OgreD3D11EngineDll.cpp
   OgreD3D11HLSLProgram.cpp
   OgreD3D11HLSLProgramFactory.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Device.cpp(132,72): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp)
   OgreD3D11HardwareBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11DepthBuffer.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11DriverList.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11EngineDll.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgramFactory.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp': No such file or directory
   OgreD3D11HardwareBufferManager.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBufferManager.cpp': No such file or directory
   OgreD3D11HardwareIndexBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(130,53): warning C4996: 'Ogre::ResourceGroupManager::openResource': was declared deprecated
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(712,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(713,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(714,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(715,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(716,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(717,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(718,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(719,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(720,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(721,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(842,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(880,57): warning C4267: 'initializing': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1186,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1720,61): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1859,60): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1911,60): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2005,50): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2010,51): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareIndexBuffer.cpp': No such file or directory
   OgreD3D11HardwareOcclusionQuery.cpp
   OgreD3D11HardwarePixelBuffer.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareOcclusionQuery.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp': No such file or directory
   OgreD3D11HardwareUniformBuffer.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareUniformBuffer.cpp': No such file or directory
   OgreD3D11HardwareVertexBuffer.cpp
   OgreD3D11Mappings.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp(221,52): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
   OgreD3D11MultiRenderTarget.cpp
   OgreD3D11Plugin.cpp
   OgreD3D11RenderSystem.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwareVertexBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp': No such file or directory
   OgreD3D11RenderToVertexBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Mappings.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp)
   OgreD3D11RenderWindow.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(71,5): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(81,90): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(329,90): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(330,106): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(454,118): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp': No such file or directory
   OgreD3D11StereoDriverAMD.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11MultiRenderTarget.cpp)
   OgreD3D11StereoDriverBridge.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverAMD.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverBridge.cpp': No such file or directory
   OgreD3D11StereoDriverNVIDIA.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(284,105): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(294,98): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(1396,100): warning C4996: 'Ogre::SceneManagerEnumerator::getSceneManagerIterator': was declared deprecated
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(1418,55): warning C4996: 'Ogre::SceneManagerEnumerator::getSceneManagerIterator': was declared deprecated
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2100,118): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2109,119): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2926,56): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3342,160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3362,160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderToVertexBuffer.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11StereoDriverNVIDIA.cpp': No such file or directory
   OgreD3D11Texture.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp': No such file or directory
   OgreD3D11TextureManager.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11RenderWindow.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Plugin.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp': No such file or directory
   OgreD3D11VertexDeclaration.cpp
   OgreD3D11VideoMode.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11VideoMode.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp': No such file or directory
   OgreD3D11VideoModeList.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11VideoModeList.cpp': No such file or directory
   OgreMonitorInfo.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreMonitorInfo.cpp': No such file or directory
   OgreNsightChecker.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp(121,90): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11TextureManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp(31,7): warning C4996: 'GetVersionExA': was declared deprecated
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(241,17): warning C4101: 'hr': unreferenced local variable
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(395,142): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(341,17): warning C4101: 'hr': unreferenced local variable
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(445,17): warning C4101: 'hr': unreferenced local variable
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(525,22): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_Direct3D11_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_Direct3D11_d.exp
-  RenderSystem_Direct3D11.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\RenderSystem_Direct3D11_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp': No such file or directory

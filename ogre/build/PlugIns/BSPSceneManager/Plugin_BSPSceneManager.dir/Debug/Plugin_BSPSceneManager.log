@@ -1,52 +1,21 @@
-﻿  OgreBspLevel.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreBspLevel.cpp
   OgreBspNode.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspNode.cpp': No such file or directory
   OgreBspSceneLoader.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneLoader.cpp': No such file or directory
   OgreBspSceneManager.cpp
   OgreBspSceneManagerDll.cpp
   OgreBspSceneManagerPlugin.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp': No such file or directory
   OgreBspSceneNode.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp': No such file or directory
   OgreQuake3Level.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspNode.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspLevel.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneManagerPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneLoader.cpp)
   OgreQuake3Shader.cpp
   OgreQuake3ShaderManager.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_BSPSceneManager_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_BSPSceneManager_d.exp
-  Plugin_BSPSceneManager.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_BSPSceneManager_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreQuake3ShaderManager.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Level.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreBspSceneNode.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\BSPSceneManager\src\OgreQuake3Shader.cpp': No such file or directory

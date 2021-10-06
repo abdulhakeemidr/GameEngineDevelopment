@@ -1,3 +1,3 @@
-﻿  OgreProperty.cpp
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreProperty_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreProperty_d.exp
-  OgreProperty.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreProperty_d.dll
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreProperty.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Property\src\OgreProperty.cpp': No such file or directory

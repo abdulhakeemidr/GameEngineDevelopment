@@ -1,29 +1,15 @@
-﻿  VRML2mesh.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  VRML2mesh.cpp
   commentstream.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp': No such file or directory
   file.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\file.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\commentstream.cpp': No such file or directory
   indexed_face_set.cpp
   node.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\indexed_face_set.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\node.cpp': No such file or directory
   nodes.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\nodes.cpp': No such file or directory
   types.cpp
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\indexed_face_set.cpp(121,53): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\indexed_face_set.cpp(122,57): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=unsigned int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(332,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(333,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(429,20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(432,27): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(450,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\src\VRML2mesh.cpp(518,35): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-  VRMLConverter.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\VRMLConverter_d.exe
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\VRMLConverter\vrmllib\src\types.cpp': No such file or directory

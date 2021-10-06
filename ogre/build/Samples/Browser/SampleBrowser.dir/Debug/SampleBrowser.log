@@ -1,35 +1,10 @@
-﻿  main.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(187,117): warning C4244: '=': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(188,105): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(196,38): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(205,37): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(206,36): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(207,92): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(207,38): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(212,67): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(212,53): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(213,97): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(213,65): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(215,61): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(214,63): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(446,131): warning C4244: 'argument': conversion from 'Ogre::Real' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(451,71): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(504,60): warning C4244: 'argument': conversion from 'Ogre::Real' to 'size_t', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(696,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(697,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(698,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(699,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(711,94): warning C4244: 'argument': conversion from 'const int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include\SampleBrowser.h(711,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'int', possible loss of data
-  SampleBrowser.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\SampleBrowser_d.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Samples\DefaultSamples.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Bites\OgreBites.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Overlay\OgreOverlay.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Terrain\OgreTerrain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Volume\OgreVolume.vcxproj' does not exist.
+  main.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\src\main.cpp': No such file or directory

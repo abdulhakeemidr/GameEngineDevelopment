@@ -1,59 +1,35 @@
-﻿  OgreAntiPortal.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreAntiPortal.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp': No such file or directory
   OgreCapsule.cpp
   OgreDefaultZone.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgreCapsule.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp': No such file or directory
   OgrePCPlane.cpp
   OgrePCZCamera.cpp
   OgrePCZFrustum.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCPlane.cpp': No such file or directory
   OgrePCZLight.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp': No such file or directory
   OgrePCZPlugin.cpp
   OgrePCZSceneManager.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp': No such file or directory
   OgrePCZSceneManagerDll.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp)
   OgrePCZSceneNode.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp)
   OgrePCZSceneQuery.cpp
   OgrePCZone.cpp
   OgrePCZoneFactory.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp': No such file or directory
   OgrePortal.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePortal.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZone.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp': No such file or directory
   OgrePortalBase.cpp
   OgreSegment.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_PCZSceneManager_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_PCZSceneManager_d.exp
-  Plugin_PCZSceneManager.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_PCZSceneManager_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgreSegment.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp': No such file or directory

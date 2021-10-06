@@ -1,53 +1,31 @@
-﻿  OgreVolumeCSGSource.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreVolumeCSGSource.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeCSGSource.cpp': No such file or directory
   OgreVolumeCacheSource.cpp
   OgreVolumeChunk.cpp
   OgreVolumeChunkHandler.cpp
   OgreVolumeDualGridGenerator.cpp
   OgreVolumeGridSource.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeChunkHandler.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeCacheSource.cpp': No such file or directory
   OgreVolumeHalfFloatGridSource.cpp
   OgreVolumeIsoSurface.cpp
   OgreVolumeIsoSurfaceMC.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeChunk.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeIsoSurfaceMC.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeIsoSurface.cpp': No such file or directory
   OgreVolumeMeshBuilder.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeChunk.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeGridSource.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeHalfFloatGridSource.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp': No such file or directory
   OgreVolumeOctreeNode.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeDualGridGenerator.cpp)
   OgreVolumeOctreeNodeSplitPolicy.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeChunkHandler.cpp)
   OgreVolumeSimplexNoise.cpp
   OgreVolumeSource.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeMeshBuilder.cpp)
   OgreVolumeTextureSource.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeOctreeNode.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeTextureSource.cpp(75,45): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeSource.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreVolume_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreVolume_d.exp
-  OgreVolume.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreVolume_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeSource.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeOctreeNode.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeTextureSource.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeOctreeNodeSplitPolicy.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Volume\src\OgreVolumeSimplexNoise.cpp': No such file or directory

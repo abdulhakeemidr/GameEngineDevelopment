@@ -30,5 +30,11 @@
     <ClCompile Include="week1-5-multipleViewPorts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="week2-6-spotlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

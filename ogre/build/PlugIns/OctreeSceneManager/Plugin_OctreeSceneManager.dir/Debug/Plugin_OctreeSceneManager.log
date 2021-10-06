@@ -1,34 +1,15 @@
-﻿  OgreOctree.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreOctree.cpp
   OgreOctreeCamera.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeCamera.cpp': No such file or directory
   OgreOctreeNode.cpp
   OgreOctreePlugin.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeNode.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreePlugin.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctree.cpp': No such file or directory
   OgreOctreeSceneManager.cpp
   OgreOctreeSceneManagerDll.cpp
   OgreOctreeSceneQuery.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeNode.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreePlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManagerDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneQuery.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_OctreeSceneManager_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_OctreeSceneManager_d.exp
-  Plugin_OctreeSceneManager.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_OctreeSceneManager_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneQuery.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManager.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeSceneManager\src\OgreOctreeSceneManagerDll.cpp': No such file or directory

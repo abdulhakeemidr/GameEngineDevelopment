@@ -1,400 +1,87 @@
-﻿  DefaultSamplesPlugin.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Bites\OgreBites.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Overlay\OgreOverlay.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Paging\OgrePaging.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Terrain\OgreTerrain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Volume\OgreVolume.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj' does not exist.
+  DefaultSamplesPlugin.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp': No such file or directory
   CSMGpuConstants.cpp
   ShadowCameraSetupStableCSM.cpp
   HelperLogics.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp': No such file or directory
   AmbientLight.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp': No such file or directory
   DLight.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Compositor\src\HelperLogics.cpp': No such file or directory
   DeferredLightCP.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\AmbientLight.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp': No such file or directory
   DeferredShading.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\AmbientLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Compositor\src\HelperLogics.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp)
   GBufferMaterialGenerator.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredShading.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DLight.cpp': No such file or directory
   GBufferSchemeHandler.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\AtomicCounters.h(53,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\AtomicCounters.h(54,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Character\include\SinbadCharacterController.h(299,28): warning C4244: '=': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Compositor\include\Compositor.h(688,61): warning C4244: '=': conversion from 'Ogre::Real' to 'Ogre::uint8', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferMaterialGenerator.cpp': No such file or directory
   GeomUtils.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\include\CSMShadows.h(94,51): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\include\CSMShadows.h(94,39): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp(43,24): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredShading.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(180,56): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(184,36): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(185,37): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(209,63): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(227,56): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include\DeferredShadingDemo.h(231,36): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\DynTex.h(14,58): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'const unsigned int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\DynTex.h(35,83): warning C4244: 'argument': conversion from 'const unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\DynTex.h(161,83): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=Ogre::uint8
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(94,38): warning C4244: 'initializing': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(95,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(96,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(97,31): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(98,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(112,42): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(114,47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(133,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(134,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(135,31): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(136,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(150,42): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(153,41): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'size_t', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(802,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(811,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Terrain.h(820,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(205,38): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(206,38): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(221,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(222,25): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(310,23): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(311,23): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(323,1): warning C4244: '+=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Grass.h(324,1): warning C4244: '+=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Lighting.h(127,27): warning C4101: 'e': unreferenced local variable (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\LightShafts.h(77,36): warning C4244: 'initializing': conversion from 'uint64_t' to 'const Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\LightShafts.h(97,75): warning C4244: 'argument': conversion from 'uint64_t' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
   LightMaterialGenerator.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\PBR.h(30,98): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\PBR.h(37,77): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferMaterialGenerator.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp': No such file or directory
   MaterialGenerator.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(230,47): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Shadows.h(281,94): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Shadows.h(281,85): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\SkyBox.h(54,44): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Smoke.h(25,79): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Smoke.h(26,52): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(82,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(84,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(84,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(85,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(90,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(90,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(91,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(92,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(93,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(99,52): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureArray.h(99,37): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureFX.h(48,51): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\TextureFX.h(48,33): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Transparency.h(32,58): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include\Transparency.h(35,53): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(44,21): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(47,53): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(127,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(129,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(147,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(148,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(149,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(152,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(154,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(333,45): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(337,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(336,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(335,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\LightMaterialGenerator.cpp': No such file or directory
   SSAOLogic.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(457,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(532,17): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include\Water.h(533,17): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GeomUtils.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\MaterialGenerator.cpp': No such file or directory
   PerlinNoiseTerrainGenerator.cpp
   Isosurf.cpp
   ProceduralTools.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\SSAOLogic.cpp': No such file or directory
   MaterialControls.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\SSAOLogic.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp': No such file or directory
   RoomObject.cpp
   ParticleGS.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\OceanDemo\src\MaterialControls.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\PCZTestApp\src\RoomObject.cpp': No such file or directory
   ProceduralManualObject.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\OceanDemo\src\MaterialControls.cpp(115,29): warning C4101: 'e': unreferenced local variable
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\ProceduralTools.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\PCZTestApp\src\RoomObject.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
   RandomTools.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\ProceduralTools.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ParticleGS.cpp': No such file or directory
   OgreShaderExInstancedViewports.cpp
   ShaderExReflectionMap.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ProceduralManualObject.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\RandomTools.cpp': No such file or directory
   ShaderSystem.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp(83,22): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp(91,77): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp(91,21): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\RandomTools.cpp)
   RTShaderSRSSegmentedLights.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ParticleGS.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderExReflectionMap.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp': No such file or directory
   SegmentedDynamicLightManager.cpp
   ShaderSystemMultiLight.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderExReflectionMap.cpp)
   RTShaderSRSTexturedFog.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp': No such file or directory
   ShaderSystemTexturedFog.cpp
   Compute.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp': No such file or directory
   MeshLod.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(232,66): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1531,61): warning C4244: 'argument': conversion from 'Ogre::Real' to 'size_t', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1575,73): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const size_t', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1612,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1613,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1635,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1638,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1638,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1639,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1641,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1641,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1642,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1642,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1645,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1648,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1648,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1649,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1649,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1651,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1652,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1674,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1674,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1676,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1678,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1678,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1679,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1680,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1682,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1682,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1683,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1683,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1684,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1687,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1687,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1689,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1691,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1691,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1692,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1692,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1693,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1695,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1695,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1696,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp(1697,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
   NewInstancing.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\Compute.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\Compute.cpp': No such file or directory
   VolumeCSG.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp)
   VolumeTerrain.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h(230,47): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
   ThingRenderable.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeCSG.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\Compute.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\Compute.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeTerrain.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp': No such file or directory
   VolumeRenderable.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp(169,65): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp(169,34): warning C4244: 'argument': conversion from 'size_t' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp(328,22): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp(406,33): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp(406,24): warning C4244: 'initializing': conversion from 'double' to 'const Ogre::Real', possible loss of data
   VolumeTex.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp(631,33): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeCSG.cpp': No such file or directory
   WaterMesh.cpp
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeCSG.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeCSG.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeTerrain.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeTerrain.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\Water\src\WaterMesh.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(136,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include\SdkSample.h(137,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeTex.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/DefaultSamples_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/DefaultSamples_d.exp
-  DefaultSamples.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\DefaultSamples_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeTerrain.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\ThingRenderable.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeTex.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Samples\Water\src\WaterMesh.cpp': No such file or directory

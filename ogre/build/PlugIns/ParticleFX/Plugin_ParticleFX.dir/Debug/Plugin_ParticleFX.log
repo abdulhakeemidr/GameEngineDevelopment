@@ -1,30 +1,37 @@
-﻿  OgreAreaEmitter.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreAreaEmitter.cpp
   OgreBoxEmitter.cpp
   OgreColourFaderAffector.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreBoxEmitter.cpp': No such file or directory
   OgreColourFaderAffector2.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreAreaEmitter.cpp': No such file or directory
   OgreColourImageAffector.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreColourFaderAffector2.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreColourFaderAffector.cpp': No such file or directory
   OgreColourInterpolatorAffector.cpp
   OgreCylinderEmitter.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreColourImageAffector.cpp': No such file or directory
   OgreDeflectorPlaneAffector.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreColourInterpolatorAffector.cpp': No such file or directory
   OgreDirectionRandomiserAffector.cpp
   OgreEllipsoidEmitter.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreDeflectorPlaneAffector.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreCylinderEmitter.cpp': No such file or directory
   OgreHollowEllipsoidEmitter.cpp
   OgreLinearForceAffector.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreDirectionRandomiserAffector.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreEllipsoidEmitter.cpp': No such file or directory
   OgreParticleFX.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreHollowEllipsoidEmitter.cpp': No such file or directory
   OgreParticleFXPlugin.cpp
   OgrePointEmitter.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreLinearForceAffector.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreParticleFX.cpp': No such file or directory
   OgreRingEmitter.cpp
   OgreRotationAffector.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp': No such file or directory
   OgreScaleAffector.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreParticleFXPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreParticleFX.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_ParticleFX_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_ParticleFX_d.exp
-  Plugin_ParticleFX.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_ParticleFX_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgrePointEmitter.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreRotationAffector.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreRingEmitter.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\ParticleFX\src\OgreScaleAffector.cpp': No such file or directory

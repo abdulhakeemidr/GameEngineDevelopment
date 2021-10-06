@@ -1,157 +1,25 @@
-﻿  OgreAdvancedRenderControls.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Overlay\OgreOverlay.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj' does not exist.
+  OgreAdvancedRenderControls.cpp
   OgreApplicationContextBase.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreAdvancedRenderControls.cpp': No such file or directory
   OgreBitesConfigDialog.cpp
   OgreCameraMan.cpp
   OgreSGTechniqueResolverListener.cpp
   OgreStaticPluginLoader.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreCameraMan.cpp': No such file or directory
   OgreTrays.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextBase.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreStaticPluginLoader.cpp': No such file or directory
   OgreWindowEventUtilities.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreAdvancedRenderControls.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextBase.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreSGTechniqueResolverListener.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreBitesConfigDialog.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWindowEventUtilities.cpp': No such file or directory
   OgreApplicationContextSDL.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreStaticPluginLoader.cpp)
   OgreWIN32ConfigDialog.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreCameraMan.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreSGTechniqueResolverListener.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreCameraMan.cpp(199,91): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreCameraMan.cpp(199,77): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextBase.cpp(346,37): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextBase.cpp(347,37): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(91,26): warning C4244: 'return': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(321,44): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(340,53): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(355,53): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(598,61): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(655,75): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(673,57): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(684,66): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(868,91): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(896,48): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(906,79): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(919,48): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
-          with
-          [
-              T=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1123,34): warning C4244: 'argument': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1133,46): warning C4146: unary minus operator applied to unsigned type, result still unsigned
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1321,35): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1327,35): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1333,33): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1375,61): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1375,43): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1376,67): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1376,46): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1402,45): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1403,39): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1424,81): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1424,55): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1425,87): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1425,58): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1826,36): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1932,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(1978,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(2134,42): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(2134,35): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=Ogre::Real
-          ]
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(2184,54): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreTrays.cpp(2183,55): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
   OgreImGuiInputListener.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextSDL.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreImGuiInputListener.cpp(96,41): warning C4244: 'argument': conversion from 'const int' to 'Ogre::Real', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreImGuiInputListener.cpp(105,24): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreImGuiInputListener.cpp(106,24): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(163,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(170,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(202,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(238,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(245,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp(327,13): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\SDLInputMapping.h(67,46): warning C4244: '=': conversion from 'const SDL_FingerID' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextSDL.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreBites_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreBites_d.exp
-  OgreBites.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreBites_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreWIN32ConfigDialog.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreApplicationContextSDL.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Bites\src\OgreImGuiInputListener.cpp': No such file or directory

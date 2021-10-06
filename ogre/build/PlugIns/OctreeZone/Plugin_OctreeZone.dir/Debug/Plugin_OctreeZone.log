@@ -1,21 +1,10 @@
-﻿  OgreOctreeZone.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj' does not exist.
+  OgreOctreeZone.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZone.cpp': No such file or directory
   OgreOctreeZoneDll.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZoneDll.cpp': No such file or directory
   OgreOctreeZoneOctree.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZoneOctree.cpp': No such file or directory
   OgreOctreeZonePlugin.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZoneDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZone.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZoneOctree.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_OctreeZone_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_OctreeZone_d.exp
-  Plugin_OctreeZone.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_OctreeZone_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\OctreeZone\src\OgreOctreeZonePlugin.cpp': No such file or directory

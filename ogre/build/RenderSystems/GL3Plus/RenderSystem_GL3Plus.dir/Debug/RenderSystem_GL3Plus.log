@@ -1,212 +1,58 @@
-﻿  OgreGLSLExtSupport.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GLSupport\OgreGLSupport.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreGLSLExtSupport.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLExtSupport.cpp': No such file or directory
   OgreGLSLMonolithicProgram.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLMonolithicProgram.cpp': No such file or directory
   OgreGLSLProgram.cpp
   OgreGLSLProgramManager.cpp
   OgreGLSLSeparableProgram.cpp
   OgreGLSLShader.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp': No such file or directory
   OgreGLSLShaderFactory.cpp
   OgreGL3PlusDepthBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp(101,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp(114,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLMonolithicProgram.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShaderFactory.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLExtSupport.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(147,118): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(152,92): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(165,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(169,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(173,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(177,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(181,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(185,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(189,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(202,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(206,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(210,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(214,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(218,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(222,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(226,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(230,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(234,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(238,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(242,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(246,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(250,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(254,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(258,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(262,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(266,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(270,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(274,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(278,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(282,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(286,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(290,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(295,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(300,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(305,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(310,1): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusDepthBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShader.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShader.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusDepthBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLShaderFactory.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp': No such file or directory
   OgreGL3PlusEngineDll.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp)
   OgreGL3PlusFBOMultiRenderTarget.cpp
   OgreGL3PlusFBORenderTexture.cpp
   OgreGL3PlusFrameBufferObject.cpp
   OgreGL3PlusHardwareBuffer.cpp
   OgreGL3PlusHardwareBufferManager.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp(365,109): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
   OgreGL3PlusHardwareIndexBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusEngineDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFrameBufferObject.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusEngineDll.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBORenderTexture.cpp': No such file or directory
   OgreGL3PlusHardwareOcclusionQuery.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBufferManager.cpp': No such file or directory
   OgreGL3PlusHardwarePixelBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBORenderTexture.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBufferManager.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareIndexBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFrameBufferObject.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwarePixelBuffer.cpp': No such file or directory
   OgreGL3PlusHardwareUniformBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareIndexBuffer.cpp)
   OgreGL3PlusHardwareVertexBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwarePixelBuffer.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusFBOMultiRenderTarget.cpp': No such file or directory
   OgreGL3PlusPixelFormat.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareVertexBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareUniformBuffer.cpp': No such file or directory
   OgreGL3PlusPlugin.cpp
   OgreGL3PlusRenderSystem.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPixelFormat.cpp': No such file or directory
   OgreGL3PlusRenderToVertexBuffer.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPlugin.cpp': No such file or directory
   OgreGL3PlusStateCacheManager.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareOcclusionQuery.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderToVertexBuffer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp': No such file or directory
   OgreGL3PlusTexture.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPixelFormat.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusPlugin.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp': No such file or directory
   OgreGL3PlusTextureBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusHardwareVertexBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp': No such file or directory
   OgreGL3PlusTextureManager.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(330,9): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
   OgreSPIRVShaderFactory.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(773,56): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1304,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1310,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1334,21): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1338,21): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1356,21): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1360,21): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1944,13): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(2032,59): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp(388,84): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusRenderToVertexBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(174,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(184,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(193,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(202,17): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(204,17): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreSPIRVShaderFactory.cpp(63,5): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp(132,1): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=Ogre::uint
-          ]
-  gl3w.c
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_GL3Plus_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_GL3Plus_d.exp
-  RenderSystem_GL3Plus.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\RenderSystem_GL3Plus_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL3Plus\src\OgreSPIRVShaderFactory.cpp': No such file or directory

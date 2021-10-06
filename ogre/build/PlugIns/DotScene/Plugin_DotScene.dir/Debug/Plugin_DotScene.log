@@ -1,11 +1,5 @@
-﻿  DotSceneLoader.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ]
-pugixml.lib(pugixml.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in DotSceneLoader.obj
-pugixml.lib(pugixml.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in DotSceneLoader.obj
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_DotScene_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/Plugin_DotScene_d.exp
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_DotScene_d.dll : fatal error LNK1319: 2 mismatches detected
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Paging\OgrePaging.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\Components\Terrain\OgreTerrain.vcxproj' does not exist.
+  DotSceneLoader.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\PlugIns\DotScene\src\DotSceneLoader.cpp': No such file or directory

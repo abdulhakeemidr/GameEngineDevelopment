@@ -1,36 +1,19 @@
-﻿  OgreGrid2DPageStrategy.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  OgreGrid2DPageStrategy.cpp
   OgreGrid3DPageStrategy.cpp
   OgrePage.cpp
   OgrePageContent.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgreGrid2DPageStrategy.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePage.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgreGrid3DPageStrategy.cpp': No such file or directory
   OgrePageContentCollection.cpp
   OgrePageManager.cpp
   OgrePagedWorld.cpp
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePageContentCollection.cpp': No such file or directory
   OgrePagedWorldSection.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePage.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgreGrid3DPageStrategy.cpp)
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePageManager.cpp': No such file or directory
   OgreSimplePageContentCollection.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePagedWorldSection.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePageManager.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgreGrid2DPageStrategy.cpp)
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgrePaging_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgrePaging_d.exp
-  OgrePaging.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgrePaging_d.dll
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgreSimplePageContentCollection.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePagedWorldSection.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePageContent.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Components\Paging\src\OgrePagedWorld.cpp': No such file or directory

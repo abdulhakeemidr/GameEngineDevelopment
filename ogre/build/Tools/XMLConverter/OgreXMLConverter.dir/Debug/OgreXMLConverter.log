@@ -1,19 +1,7 @@
-﻿  main.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  main.cpp
   OgreXMLMeshSerializer.cpp
   OgreXMLSkeletonSerializer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\main.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\OgreXMLSkeletonSerializer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\OgreXMLMeshSerializer.cpp(750,33): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\OgreXMLMeshSerializer.cpp(986,35): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-pugixml.lib(pugixml.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
-pugixml.lib(pugixml.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreXMLConverter_d.exe : fatal error LNK1319: 2 mismatches detected
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\OgreXMLSkeletonSerializer.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\main.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\Tools\XMLConverter\src\OgreXMLMeshSerializer.cpp': No such file or directory

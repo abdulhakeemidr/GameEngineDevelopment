@@ -1,31 +1,3 @@
-﻿  cmake_pch.cxx
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ]
-  OgreLodBuffer.cpp
-  OgreLodCollapseCost.cpp
-  OgreLodCollapseCostCurvature.cpp
-  OgreLodCollapseCostOutside.cpp
-  OgreLodCollapseCostProfiler.cpp
-  OgreLodCollapseCostQuadric.cpp
-  OgreLodCollapser.cpp
-  OgreLodConfig.cpp
-  OgreLodConfigSerializer.cpp
-  OgreLodData.cpp
-  OgreLodInputProvider.cpp
-  OgreLodInputProviderBuffer.cpp
-  OgreLodInputProviderMesh.cpp
-  OgreLodOutputProviderBuffer.cpp
-C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp(98,109): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::ushort', possible loss of data
-  OgreLodOutputProviderCompressedBuffer.cpp
-  OgreLodOutputProviderCompressedMesh.cpp
-  OgreLodOutputProviderMesh.cpp
-  OgreLodOutsideMarker.cpp
-  OgreLodWorkQueueInjector.cpp
-  OgreLodWorkQueueWorker.cpp
-  OgreMeshLodGenerator.cpp
-  OgreSmallVector.cpp
-     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreMeshLodGenerator_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/OgreMeshLodGenerator_d.exp
-  OgreMeshLodGenerator.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreMeshLodGenerator_d.dll
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj' does not exist.
+  cmake_pch.cxx
+c1xx : fatal error C1083: Cannot open source file: 'C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\cmake_pch.cxx': No such file or directory
