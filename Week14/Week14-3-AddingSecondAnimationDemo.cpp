@@ -1,6 +1,16 @@
-//Week11-3-AddingSecondAnimation
-//Adding second animation
-//Hooman Salamat
+/** @file Week14-3-AddingSecondAnimation
+ *  @brief Adding second animation 
+ *  if you have asked yourself why we needed to get the AnimationState to play an animation 
+ *  instead of calling a function like playAnimation(AnimationName), you now have the answer. 
+ *  Ogre 3D supports playing more than one animation at the same time, and with a simple
+ *  playAnimation(AnimationName), this wouldn't be possible. With animation states, we
+ *  can play as many animations as we want. We can even play one animation with a different
+ *  speed than the other, using a modifier variable and the addTime() function.
+ *  @attaention: two animation states are attached to the same entity!
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -24,6 +34,8 @@ private:
     float _mousespeed;
     Ogre::Entity* _ent;
     Ogre::AnimationState* _aniState;
+    //! step1
+    //! For our second animation, we need a new pointer for the animation state
     Ogre::AnimationState* _aniStateTop;
 public:
 
@@ -34,12 +46,14 @@ public:
         _movementspeed = 2.0f;
         _mousespeed = 0.002f;
 
+        //! Step2
+        //! No more dancing, we are using RunBase animation state instead
         _ent = ent;
         _aniState = _ent->getAnimationState("RunBase");
         _aniState->setEnabled(true);
         _aniState->setLoop(true);
 
-        //step1
+        //! For the second animation, we will be using RunTop animation state.
         _aniStateTop = _ent->getAnimationState("RunTop");
         _aniStateTop->setEnabled(true);
         _aniStateTop->setLoop(true);
@@ -58,7 +72,8 @@ public:
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
 
         _aniState->addTime(evt.timeSinceLastFrame);
-        //step2
+        //!step3
+        //! add the passed time to this animation as well
         _aniStateTop->addTime(evt.timeSinceLastFrame);
                 
         return true;
@@ -70,13 +85,13 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
+    SceneNode* mNinjaNode;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
     Camera* mCam;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    Entity* mNinjaEnt;
 public:
     Game();
     virtual ~Game() {}
@@ -179,13 +194,13 @@ void Game::createScene()
     groundEntity->setMaterialName("Examples/BeachStones");
 
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
+    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode->attachObject(mNinjaEnt);
+    mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
+    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
+    mNinjaNode->setPosition(0, 4.0, 0);
 
     // -- tutorial section end --
 }
@@ -211,7 +226,7 @@ void Game::createCamera()
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 

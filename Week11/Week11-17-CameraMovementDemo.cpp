@@ -1,4 +1,4 @@
-//Week12-4-WireframeDemo Press space button to get wireframe
+//Week11-1-CameraMovement
 
 //Hooman Salamat
 
@@ -38,10 +38,15 @@ public:
         float rotXNew = rotX * evt.timeSinceLastFrame * -1;
         float rotYNew = rotY * evt.timeSinceLastFrame * -1;
 
-        //Stop camera movement
-        //_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
-        //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
-        //_camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
+
+        //_camNode->yaw(Ogre::Radian(rotXNew));
+        //_camNode->pitch(Ogre::Radian(rotYNew));
+
+        _camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
+        _camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
+
+        //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
+        _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
                 
         return true;
     }
@@ -72,7 +77,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week12-4-WireframeDemo")
+    : ApplicationContext("Week11-1-AnimationDemo")
 {
 }
 

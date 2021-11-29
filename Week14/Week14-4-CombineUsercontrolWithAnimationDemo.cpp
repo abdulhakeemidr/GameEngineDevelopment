@@ -1,8 +1,10 @@
-//Week11-4-CombineUsercontrolWithAnimationDemo
-//combining user control and animation With the mouse and WASD, we can move the camera. 
-// With the arrow keys, we can move Sinbad
-//and the right animation gets played each time we move him.
-//Hooman Salamat
+/** @file Week14-4-CombineUsercontrolWithAnimationDemo
+ *  @brief Combining user control and animation With arraow keys
+ *  we can move Sinbad and the right animation gets played each time we move him.
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -17,15 +19,16 @@ Ogre::Vector3 translate(0, 0, 0);
 float rotX = 0.0f;
 float rotY = 0.0f;
 
-//step1.we need four new local variables, one to indicate
-//if we have moved our model for this frame and a second one to store the direction
-//in which we have moved our model. Third one for controlling the
-//movement speed and forth one saving our rotation :
+//!step1
+//! we need four new local variables, one to indicate
+//! if we have moved our model for this frame and a second one to store the direction
+//! in which we have moved our model. Third one for controlling the
+//! movement speed and forth one saving our rotation :
 bool walked = false;
-Ogre::Vector3 SinbadTranslate(0, 0, 0);
-//we want to move at 50 units per second 
+Ogre::Vector3 NinjaTranslate(0, 0, 0);
+//! we want to move at 50 units per second 
 float WalkingSpeed = 50.0f;
-float SinbadRotation = 0.0f;
+float NinjaRotation = 0.0f;
 
 class ExampleFrameListener : public Ogre::FrameListener
 {
@@ -47,8 +50,9 @@ public:
         _movementspeed = 2.0f;
         _mousespeed = 0.002f;
        
-        //step2. Then we need to change our animation states to prevent them from looping.
-        //This time, we are going to control when a new animation has to start and not Ogre 3D:
+        //!step2 
+        //! Then we need to change our animation states to prevent them from looping.
+        //! This time, we are going to control when a new animation has to start and not Ogre 3D:
         _ent = ent;
         _aniState = _ent->getAnimationState("RunBase");
         _aniState->setEnabled(true);
@@ -73,13 +77,14 @@ public:
 
 
 
-        //step4. Then, after the key handling, we need to check if we walked this frame.If this is
-        //the case, we need to check if the animation has ended.When this is true, we
-        //restart the animation. If we didn't walk this frame, we need to set both animation states to zero.
-        //Otherwise, our model would be frozen in an animation half way doneand this
-        //doesn't look exactly good. So if we don't walk this frame, we set the two animations
-        //back to the starting position.Also, we disable both animations since we aren't
-        //moving the model of this frame and because we don't need animations:
+        //!step4 
+        //! After the key handling, we need to check if we walked this frame. We need to check 
+        //! if the animation has ended. When this is true, we restart the animation. 
+        //! If we didn't walk this frame, we need to set both animation states to zero.
+        //! Otherwise, our model would be frozen in an animation half way done and this
+        //! doesn't look exactly good. So if we don't walk this frame, we set the two animations
+        //! back to the starting position. Also, we disable both animations since we aren't
+        //! moving the model of this frame and because we don't need animations:
 
         if (walked)
         {
@@ -104,9 +109,9 @@ public:
 
 
         //The last thing we need to do is to apply translation and rotation to our model's scene node :
-        _sceneNode->translate(SinbadTranslate * evt.timeSinceLastFrame * WalkingSpeed);
+        _sceneNode->translate(NinjaTranslate * evt.timeSinceLastFrame * WalkingSpeed);
         _sceneNode->resetOrientation();
-        _sceneNode->yaw(Ogre::Radian(SinbadRotation));
+        _sceneNode->yaw(Ogre::Radian(NinjaRotation));
 
         _aniState->addTime(evt.timeSinceLastFrame);
         _aniStateTop->addTime(evt.timeSinceLastFrame);
@@ -120,13 +125,13 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
+    SceneNode* mNinjaNode;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
     Camera* mCam;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    Entity* mNinjaEnt;
 public:
     Game();
     virtual ~Game() {}
@@ -224,16 +229,14 @@ void Game::createScene()
     //And finally we need to give our ground a material.
     groundEntity->setMaterialName("Examples/BeachStones");
 
+    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode->attachObject(mNinjaEnt);
+    mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
+    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
+    mNinjaNode->setPosition(0, 4.0, 0);
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
-
-    // -- tutorial section end --
 }
 
 void Game::createCamera()
@@ -256,7 +259,7 @@ void Game::createCamera()
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 
@@ -268,16 +271,17 @@ bool Game::mouseMoved(const MouseMotionEvent& evt)
     return true;
 }
 
-//step3. We will use the arrow keys for movement.When a key is
-//pressed, we need to change the translation variable to save the direction in which
-//we want to move the modeland we need to set the rotation variable to rotate the
-//model in such a way that it looks in the direction it moves :
+//!step3 
+//! We will use the arrow keys for movement.
+//! When a key is pressed, we need to change the translation variable to save the direction in which
+//! we want to move the model and we need to set the rotation variable to rotate the
+//! model in such a way that it looks in the direction it moves :
 
 bool Game::keyPressed(const KeyboardEvent& evt)
 {
 
     translate = Ogre::Vector3(0, 0, 0);
-    SinbadTranslate = Ogre::Vector3(0, 0, 0);
+    NinjaTranslate = Ogre::Vector3(0, 0, 0);
     walked = false;
 
     switch (evt.keysym.sym)
@@ -286,23 +290,23 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         getRoot()->queueEndRendering();
         break;
     case SDLK_UP:
-        SinbadTranslate += Ogre::Vector3(0, 0, -1);
-        SinbadRotation = 3.14f;
+        NinjaTranslate += Ogre::Vector3(0, 0, -1);
+        NinjaRotation = 3.14f;
         walked = true;
         break;
     case SDLK_DOWN:
-        SinbadTranslate += Ogre::Vector3(0, 0, 1);
-        SinbadRotation = 0.0f;
+        NinjaTranslate += Ogre::Vector3(0, 0, 1);
+        NinjaRotation = 0.0f;
         walked = true;
         break;
     case SDLK_LEFT:
-        SinbadTranslate += Ogre::Vector3(-1, 0, 0);
-        SinbadRotation = -1.57f;
+        NinjaTranslate += Ogre::Vector3(-1, 0, 0);
+        NinjaRotation = -1.57f;
         walked = true;
         break;
     case SDLK_RIGHT:
-        SinbadTranslate += Ogre::Vector3(1, 0, 0);
-        SinbadRotation = 1.57f;
+        NinjaTranslate += Ogre::Vector3(1, 0, 0);
+        NinjaRotation = 1.57f;
         walked = true;
         break;
     case 'w':

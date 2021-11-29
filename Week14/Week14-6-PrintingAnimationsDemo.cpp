@@ -1,6 +1,11 @@
-//Week14-6-PrintingAnimationsDemo
-
-//Hooman Salamat
+/** @file Week14-6-PrintingAnimationsDemo
+ *  @brief print all animations of a model into the console
+ *  @attention we are using SliceHorizontal animation state as our second animation
+ *  @note Arrows keys to move Sinbad
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -105,13 +110,13 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
+    SceneNode* mNinjaNode;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
     Camera* mCam;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    Entity* mNinjaEnt;
 public:
     Game();
     virtual ~Game() {}
@@ -211,23 +216,23 @@ void Game::createScene()
 
 
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
+    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode->attachObject(mNinjaEnt);
+    mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
+    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
+    mNinjaNode->setPosition(0, 4.0, 0);
 
     Ogre::Entity* sword1 = mScnMgr->createEntity("Sword1", "Sword.mesh");
     Ogre::Entity* sword2 = mScnMgr->createEntity("Sword2", "Sword.mesh");
     //Now attach the sword to the model using a bone name:
     //It works if I use one of them at a time!
     //mSinbadEnt->attachObjectToBone("Handle.L", sword1);
-    mSinbadEnt->attachObjectToBone("Handle.R", sword2);
+    mNinjaEnt->attachObjectToBone("Handle.R", sword2);
 
     //Step1: get all the animations that the model has as a set :
-    Ogre::AnimationStateSet* set = mSinbadEnt->getAllAnimationStates();
+    Ogre::AnimationStateSet* set = mNinjaEnt->getAllAnimationStates();
     Ogre::AnimationStateIterator iter = set->getAnimationStateIterator();
     while (iter.hasMoreElements())
     {
@@ -256,7 +261,7 @@ void Game::createCamera()
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 
@@ -348,4 +353,3 @@ int main(int argc, char** argv)
     return 0;
 }
 
-//! [fullsource]

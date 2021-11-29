@@ -1,13 +1,30 @@
-//Week12-6-OgreProfilingDemo 
+/** @file Week12-6-OgreProfilingDemo
+ *  @brief Profiling Demo using ogre profiling
+ *  The profiler allows you to measure the performance of your code.
+ *  If you are using the Ogre SDK and you want to use the Profiler, it is advisable to switch to the source code version of Ogre,
+ *  because the SDK is shipped with OGRE_PROFILING=OFF, so Profiling is disabled by default
+ *  How to read the profile:
+ *  On the left side are the profile names with a number in parentheses next to it. 
+ *  This number is the number of times this profile was called during this frame. 
+ *  If this number is 0, that means that the profile was called before, but is not being called currently. 
+ *  The bars on the left represent the frame time statistics. You can see indicators above which show that a profile can take anywhere 
+ *  from 0% to 100% of the frame time. 
+ *  The big yellow bars show the current frame percentage that the profile is taking. 
+ *  The green line shows the minimum frame time, the red line is the maximum frame time, and the blue line is the average frame time. 
+ *  Big discrepancies between the average and maximum can possibly be the sign of a performance bottleneck (however it could be the profiler acting strangely). 
+ *  These results will be printed to the log when the application ends or you can manually do it by calling logResults().
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Hooman Salamat
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
 #include "OgreInput.h"
 #include "OgreRTShaderSystem.h"
 #include "OgreTrays.h"
+#include "ConsoleColor.h"
 #include <iostream>
-
+using namespace std;
 using namespace Ogre;
 using namespace OgreBites;
 
@@ -35,6 +52,10 @@ public:
     bool frameStarted(const Ogre::FrameEvent& evt)
     {
 
+        //!step1: The profiler will need you to specify the main program loop.To do this, you call the following at the very beginning of the 
+        //frameStarted() function in your FrameListener class :
+        OgreProfileBegin("Ogre Main Loop");
+
         float rotXNew = rotX * evt.timeSinceLastFrame * -1;
         float rotYNew = rotY * evt.timeSinceLastFrame * -1;
 
@@ -42,7 +63,15 @@ public:
         //_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
         //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
         //_camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
-                
+
+        return true;
+    }
+
+    bool frameEnded(const Ogre::FrameEvent& evt)
+    {
+        //!step2: Add this at the very end of the frameEnded() function:
+        //!Make sure the names match exactly, otherwise the profiler will fail an assert. Next you want to profile some of your code. 
+        OgreProfileEnd("Ogre Main Loop");
         return true;
     }
 };
@@ -72,7 +101,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week12-4-OgreProfilingDemo")
+    : ApplicationContext("Week12-6-OgreProfilingDemo")
 {
 }
 
@@ -94,23 +123,33 @@ void Game::setup()
 
     mPolyMode = Ogre::PolygonMode::PM_SOLID;
 
-    //you must add this in order to add a tray
+    //!step3: you must add this in order to add a tray
     mScnMgr->addRenderQueueListener(mOverlaySystem);
-    // Give it a timer and enable it
+    // Give the profiler a timer and enable it
     Ogre::Profiler::getSingleton().setTimer(Root::getSingleton().getTimer());
     Ogre::Profiler::getSingleton().setEnabled(true);
-    //OgreProfileBegin("Ogre Main Loop");
-    { 
-        OgreProfile("Ogre Main Loop");
-
-        createScene();
-        createCamera();
-        createFrameListener();
-    } 
-    //OgreProfileEnd("Ogre Main Loop");
-    Ogre::Profiler::getSingleton().watchForLimit("Ogre Main Loop", .006, true);
+    //You can change how frequently the display is updated to suit your tastes like this
     Ogre::Profiler::getSingleton().setUpdateDisplayFrequency(100);
-    Ogre::Profiler::getSingleton().logResults();
+
+    //!step4: Next you want to profile some of your code. You do this by calling OgreProfile() and using braces ({}) to limit the scope.
+    //!Note that OgreProfile cannot be called in the same scope as another OgreProfile().
+    
+    //you have to add this..there is a bug, so system doesn't the first profile
+    {
+        OgreProfile("Ogre Profile");
+    }
+    {
+        OgreProfile("Scene Profile");
+        createScene();
+    }
+    {
+        OgreProfile("Camera Profile");
+        createCamera();
+    }
+    {
+        OgreProfile("Frame Profile");
+        createFrameListener();
+    }
 }
 
 void Game::createScene()
@@ -240,13 +279,13 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         break;
     case 'p':
         translate = Ogre::Vector3(0, 0, 0);
-        break; 
+        break;
     case ' ':
         if (mPolyMode == Ogre::PolygonMode::PM_SOLID)
             mPolyMode = Ogre::PolygonMode::PM_WIREFRAME;
         else
             mPolyMode = Ogre::PolygonMode::PM_SOLID;
-         cam->setPolygonMode(mPolyMode);
+        cam->setPolygonMode(mPolyMode);
         break;
     default:
         break;
